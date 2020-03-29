@@ -1,4 +1,5 @@
 """
+This script is for when using local pdf papers.
 Reads pdf files of all papers and creates flair embeddings for all papers.
 Dumps results to file corpus.pkl
 """
