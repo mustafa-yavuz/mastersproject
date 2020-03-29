@@ -6,6 +6,7 @@ Dumps results to files abstract.pkl and titles.pkl
 import urllib.request
 import feedparser
 import pickle
+import build_embeddings
 
 # Base api query url
 base_url = 'http://export.arxiv.org/api/query?';
@@ -56,8 +57,23 @@ for entry in feed.entries:
     #print ('Abstract: %s' %  entry.summary)
     abstract_list.append(entry.summary)
 
-# Dump abstract and title lists to pickle files
+# Creating abstract corpus with flair embeddings
+abstract_corpus = []
+for abstract in abstract_list:
+  sentence = Sentence(abstract)
+  build_embeddings.embedding().embed(sentence)
+  abstract_corpus.append(sentence.get_embedding().detach().numpy())
+
+# Creating title corpus with flair embeddings
+title_corpus = []
+for title in title_list:
+  sentence = Sentence(title)
+  build_embeddings.embedding().embed(sentence)
+  title_corpus.append(sentence.get_embedding().detach().numpy())
+
+
+# Dumping abstract and title embeddings to pickle files
 with open('abstract_10000.pkl', 'wb') as f:
-    pickle.dump(abstract_list, f)
+    pickle.dump(abstract_corpus, f)
 with open('title_10000.pkl', 'wb') as f:
     pickle.dump(title_list, f)
