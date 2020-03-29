@@ -31,7 +31,6 @@ def embedding() :
     return document_embeddings
     
 def pdfparser(pdffile):
-
     with open(pdffile, mode='rb') as f:
         rsrcmgr = PDFResourceManager()
         retstr = StringIO()
