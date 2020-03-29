@@ -66,7 +66,7 @@ def create_corpus(pdf_folder):
             document_embeddings.embed(sentence)
             corpus.append(sentence.get_embedding().detach().numpy())
 
-    #Save corpus to a file
+    #Save corpus to a pickle file
     with open('corpus.pkl', 'wb') as f:
         pickle.dump(corpus, f)
 
