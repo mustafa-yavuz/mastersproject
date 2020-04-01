@@ -35,22 +35,22 @@ def pdfparser(pdffile):
     with open(pdffile, mode='rb') as f:
         rsrcmgr = PDFResourceManager()
         retstr = StringIO()
-        #codec = 'utf-8'
         laparams = LAParams()
         data =[]
         device = TextConverter(rsrcmgr, retstr, laparams=laparams)
+
         # Create a PDF interpreter object.
         interpreter = PDFPageInterpreter(rsrcmgr, device)
+
         # Process each page contained in the document.
         for page in PDFPage.get_pages(f):
             interpreter.process_page(page)
             data = retstr.getvalue()
-            #print(data)
 
         # Cleaning the data
         data = data.lower()
         data = re.sub('\[*?\]', ' ', data)
-        data = re.sub('[%s]' % re.escape(string.punctuation), ' ', data)
+        data = re.sub(f'[{re.escape(string.punctuation)}s]', ' ', data)
         data = re.sub('\w*\d\w*', ' ', data)
         data = data.replace("\n", " ")
 
