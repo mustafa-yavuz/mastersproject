@@ -6,7 +6,12 @@ Dumps results to files abstract.pkl and titles.pkl
 import urllib.request
 import feedparser
 import pickle
-import build_embeddings
+import spacy
+
+from build_embeddings_pdf import embedding
+
+# Loading spacy nlp model
+spacy_model = spacy.load("en_core_web_sm")
 
 # Base api query url
 base_url = 'http://export.arxiv.org/api/query?';
@@ -20,7 +25,6 @@ query = 'search_query=%s&start=%i&max_results=%i' % (search_query,
                                                      start,
                                                      max_results)
 
-
 feedparser._FeedParserMixin.namespaces['http://arxiv.org/schemas/atom'] = 'arxiv'
 
 # perform a GET request using the base_url and query
@@ -32,7 +36,6 @@ feed = feedparser.parse(response)
 # print out feed information
 print ('Feed title: %s' % feed.feed.title)
 
-
 # print opensearch metadata
 print ('totalResults for this query: %s' % feed.feed.opensearch_totalresults)
 print ('itemsPerPage for this query: %s' % feed.feed.opensearch_itemsperpage)
@@ -41,6 +44,7 @@ print ('startIndex for this query: %s'   % feed.feed.opensearch_startindex)
 # Run through each entry, and print out information
 title_list = []
 abstract_list = []
+
 for entry in feed.entries:
    
     title_list.append(entry.title)
@@ -57,20 +61,42 @@ for entry in feed.entries:
     #print ('Abstract: %s' %  entry.summary)
     abstract_list.append(entry.summary)
 
-# Creating abstract corpus with flair embeddings
+# Data cleaning
+def text_cleaning(data):
+    data = data.lower()
+    data = re.sub('\$(.*?)\$',' ',data)
+    data = re.sub('\[*?\]', ' ', data)
+    data = re.sub(f'[{re.escape(string.punctuation)}]', '', data)
+    data = re.sub('\w*\d\w*', ' ', data)
+    data = data.replace("\n"," ")
+    data = nlp(data)
+    return nlp(' '.join([token.text.lower() for token in data if token.text not in [' '*i for i in range(20)]]))
+
+a_list = list(map(lambda x: text_cleaning(x), abstract_list))
+t_list = list(map(lambda x: text_cleaning(x), title_list))
+
+# Dumping abstract and title text lists to pickle files
+with open('abstract_list.pkl', 'wb') as f:
+    pickle.dump(a_list, f)
+with open('title_list.pkl', 'wb') as f:
+    pickle.dump(t_list, f)
+
+# Creating flair embedding
+e4 = embedding() 
+
+# Creating flair embeddings for abstract text
 abstract_corpus = []
-for abstract in abstract_list:
+for abstract in a_list:
   sentence = Sentence(abstract)
-  build_embeddings.embedding().embed(sentence)
+  e4.embed(sentence)
   abstract_corpus.append(sentence.get_embedding().detach().numpy())
 
-# Creating title corpus with flair embeddings
+# Creating flair embeddings for title text
 title_corpus = []
-for title in title_list:
+for title in t_list:
   sentence = Sentence(title)
-  build_embeddings.embedding().embed(sentence)
+  e4.embed(sentence)
   title_corpus.append(sentence.get_embedding().detach().numpy())
-
 
 # Dumping abstract and title embeddings to pickle files
 with open('abstract_10000.pkl', 'wb') as f:
