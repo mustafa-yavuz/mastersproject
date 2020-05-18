@@ -1,12 +1,12 @@
-### ML for Material Science
+# ML for Material Science
 This project is an implementation of unsupervised and supervised learning methods on Material science publications.
 Final goal of this project is to allow researchers to cluster similar papers, find papers with specific keywords, and classify their own papers.
 
-# Data
+### Data
 * papers.csv : Csv file containing abstract and titles of papers.
 * flair_embd_paper.pkl : Pickle file that holds a list which contains flair embeddings of abstracts for 10000 papers.
 
-# Code
+### Code
 * text_extraction.py : Queries Arxiv api to extract abstract and titles of papers. Preprocesses the text and creates flair embeddings.
 * build_embeddings_pdf.py : Parses pdfs in local directory.Preprocesses the whole text including title,abstract,body and summary. Creates flair embeddings.
 * clustering_comparison.ipynb : Compares performances of several clustering algorithms. 
