@@ -5,6 +5,8 @@ Final goal of this project is to allow researchers to cluster similar papers, fi
 ### Data
 * papers.csv : Csv file containing abstract and titles of papers.
 * flair_embd_paper.pkl : Pickle file that holds a list which contains flair embeddings of abstracts for 10000 papers.
+* abstract_list.pkl : Pickle file that holds a list which contains abstracts for 10000 papers.
+* title_list.pkl : Pickle file that holds a list which contains titles for 10000 papers.
 
 ### Code
 * text_extraction.py : Queries Arxiv api to extract abstract and titles of papers. Preprocesses the text and creates flair embeddings.
