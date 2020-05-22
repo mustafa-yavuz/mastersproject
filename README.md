@@ -1,4 +1,4 @@
-<img src='https://i.imgur.com/TqHwhXT.jpg' title='Poster' width='' alt='First Screen' />
+<img src='https://i.imgur.com/TqHwhXT.jpg' title='Poster' width='' />
 
 # ML for Material Science
 This project is an implementation of unsupervised and supervised learning methods on Material science publications.
