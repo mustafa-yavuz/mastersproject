@@ -5,7 +5,7 @@ Final goal of this project is to allow researchers to cluster similar papers, fi
 ### Data
 * Link for downloading pdfs from Arxiv : [arxiv-sanity-preserver](https://github.com/karpathy/arxiv-sanity-preserver)
 * papers.csv : Csv file containing abstract and titles of papers.
-* flair_embd_paper.pkl : Pickle file that holds a list which contains flair embeddings of abstracts for 10000 papers.
+* [flair_embd_paper.pkl](https://drive.google.com/open?id=1H_L5ZwIZrrxbJ5O24IsooymUUv3lmuVW) : Pickle file that holds a list which contains flair embeddings of abstracts for 10000 papers.
 * abstract_list.pkl : Pickle file that holds a list which contains abstracts for 10000 papers.
 * title_list.pkl : Pickle file that holds a list which contains titles for 10000 papers.
 
