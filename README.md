@@ -1,3 +1,6 @@
+<img src='https://i.imgur.com/g5efuWg.jpg' title='First Screen' width='' alt='First Screen' />
+
+[img]https://i.imgur.com/TqHwhXT.jpg[/img]
 # ML for Material Science
 This project is an implementation of unsupervised and supervised learning methods on Material science publications.
 Final goal of this project is to allow researchers to cluster similar papers, find papers with specific keywords, and classify their own papers.
