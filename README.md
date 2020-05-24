@@ -5,7 +5,7 @@ This project is an implementation of unsupervised and supervised learning method
 Final goal of this project is to allow researchers to cluster similar papers, find papers with specific keywords, and classify their own papers.
 
 ### Data
-* Link for downloading pdfs from Arxiv : [arxiv-sanity-preserver](https://github.com/karpathy/arxiv-sanity-preserver)
+* Link for downloading pdfs from Arxiv : [arxiv-sanity-preserver](https://arxiv.org/help/api/user-manual)
 * papers.csv : Csv file containing abstract and titles of papers.
 * [flair_embd_paper.pkl](https://drive.google.com/open?id=1H_L5ZwIZrrxbJ5O24IsooymUUv3lmuVW) : Pickle file that holds a list which contains flair embeddings of abstracts for 10000 papers.
 * abstract_list.pkl : Pickle file that holds a list which contains abstracts for 10000 papers.
