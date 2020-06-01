@@ -8,7 +8,7 @@ import feedparser
 import pickle
 import spacy
 
-from build_embeddings_pdf import embedding
+from utils import embedding , text_cleaning
 
 # Loading spacy nlp model
 spacy_model = spacy.load("en_core_web_sm")
@@ -62,19 +62,10 @@ for entry in feed.entries:
     abstract_list.append(entry.summary)
 
 # Data cleaning
-def text_cleaning(data):
-    data = data.lower()
-    data = re.sub('\$(.*?)\$',' ',data)
-    data = re.sub('\[*?\]', ' ', data)
-    data = re.sub(f'[{re.escape(string.punctuation)}]', '', data)
-    data = re.sub('\w*\d\w*', ' ', data)
-    data = data.replace("\n"," ")
-    data = nlp(data)
-    return nlp(' '.join([token.text.lower() for token in data if token.text not in [' '*i for i in range(20)]]))
-
 a_list = list(map(lambda x: text_cleaning(x), abstract_list))
 t_list = list(map(lambda x: text_cleaning(x), title_list))
-
+a_list = list(map(lambda x:x.text,a_list))
+t_list = list(map(lambda x:x.text,t_list))
 # Dumping abstract and title text lists to pickle files
 with open('abstract_list.pkl', 'wb') as f:
     pickle.dump(a_list, f)

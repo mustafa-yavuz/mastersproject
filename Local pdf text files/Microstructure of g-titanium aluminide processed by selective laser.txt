@@ -1,0 +1,5 @@
+The present study deals with a b-solidifying titanium aluminide processed by Selective Laser Melting
+using prealloyed g-TiAl powder. In particular the effects of energy density and preheat temperature on
+chemical composition and microstructure were investigated to acquire suitable process parameters.
+Tensile tests carried out at room temperature and 850 (cid:1)C demonstrate that strengths in the range of
+conventionally produced material can be achieved.

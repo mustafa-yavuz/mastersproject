@@ -1,0 +1,26 @@
+This paper presents the research done to determine
+the functional relationship between process parameters and
+tensile strength for the fused deposition modelling (FDM)
+process using the group method for data modelling for prediction
+purposes. An initial test was carried out to determine
+whether part orientation and raster angle variations affect the
+tensile strength. It was found that both process parameters
+affect tensile strength response. Further experimentations
+were carried out in which the process parameters considered
+were part orientation, raster angle, raster width and air gap.
+The process parameters and the experimental results were
+submitted to the group method of data handling (GMDH),
+resulting in predicted output, in which the predicted output
+values were found to correlate very closely with the measured
+values. Using differential evolution (DE), optimal process
+parameters have been found to achieve good strength simultaneously
+for the response. The mathematical model of the
+response of the tensile strength with respect to the process
+parameters comprising part orientation, raster angle, raster
+width and air gap has been developed based on GMDH, and
+it has been found that the functionality of the additive
+manufacturing part produced is improved by optimizing the
+process parameters. The results obtained are very promising,
+and hence, the approach presented in this paper has practical
+application for the design and manufacture of parts using
+additive manufacturing technologies.

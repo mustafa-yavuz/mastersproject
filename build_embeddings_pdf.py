@@ -15,23 +15,7 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
-from flair.embeddings import WordEmbeddings, FlairEmbeddings, DocumentPoolEmbeddings
-from flair.data import Sentence
 
-
-def embedding() :
-    # initialize the word embeddings
-    glove_embedding = WordEmbeddings('glove')
-    flair_embedding_forward = FlairEmbeddings('news-forward')
-    flair_embedding_backward = FlairEmbeddings('news-backward')
-
-    # initialize the document embeddings, mode = mean
-    document_embeddings = DocumentPoolEmbeddings([glove_embedding,
-                                                flair_embedding_backward,
-                                                flair_embedding_forward])
-    
-    return document_embeddings
-    
 def pdfparser(pdffile):
     with open(pdffile, mode='rb') as f:
         rsrcmgr = PDFResourceManager()

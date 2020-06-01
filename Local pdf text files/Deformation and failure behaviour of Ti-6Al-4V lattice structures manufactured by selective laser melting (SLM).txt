@@ -1,0 +1,21 @@
+Selective laser melting (SLM) enables the manufacture
+of lattice structures with highly engineered mechanical
+properties that are optimised for the associated
+design requirements. Such lattice structures offer high
+specific strength and stiffness characteristics allowing design
+freedom beyond the capacity of solid materials.
+However, to apply lattices as space filling structural elements,
+it is necessary to quantify their mechanical properties
+such as compressive strength and stiffness under
+varying geometric conditions. This work provides an experimental
+investigation of the manufacturability of SLM
+Ti-6Al-4V lattice struts of varying diameter and inclination.
+From this investigation, lattice structures are
+manufactured for varying cell topology, cell size, number
+of unit cells and associated boundary conditions. The deformation
+and failure behaviour of these lattices is theoretically
+predicted and experimentally validated. The convergence
+of mechanical properties with increasing number
+of unit cells, as well as the effect of lattice topology on
+mechanical behaviour and observed failures mode are
+reported.

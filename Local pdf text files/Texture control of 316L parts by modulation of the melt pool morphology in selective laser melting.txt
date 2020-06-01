@@ -1,0 +1,11 @@
+In this study, 316L parts were fabricated with the selective laser melting additive layer 
+manufacturing process using unidirectional laser scan to control their texture. The melt pool 
+shape, microstructure and texture of three different cubic samples were analyzed and quantified 
+using optical microscopy and electron back-scattered diffraction. The samples scanned along 
+the shielding gas flow direction were shown to exhibit shallow conduction melt pools together 
+with a strong {110}<001> Goss texture along the laser scanning direction. The sample prepared 
+with a laser scan perpendicular to the gas flow direction had deeper melt pools, with a weaker 
+{110} <001> Goss texture in addition to a <100> fiber texture parallel to the scanning direction. 
+Correlations were proposed between the melt-pool geometry and overlap and the resulting 
+texture. The decrease of the melt pool depth was assumed to be linked to local attenuation of 
+the laser beam effective power density transmitted to the powder bed.
