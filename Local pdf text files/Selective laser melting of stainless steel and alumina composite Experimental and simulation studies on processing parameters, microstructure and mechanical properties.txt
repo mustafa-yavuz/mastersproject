@@ -1,0 +1,12 @@
+Metal matrix composites (MMC) ﬁnd their uses as high performance materials. The selective laser melting (SLM)
+of a 316L stainless steel and Al2O3 MMC is presented in this paper. Agglomerate Al2O3 particles had shown to be
+an adequate powder choice with uniform dispersions in the resultant prints. Relative density, phase, microstruc-
+ture and mechanical properties of all 1-, 2-, 3-wt% doped products were carefully analyzed. Finite element model-
+ing model was developed to study the associated multi-physics phenomena with high efﬁciency for process
+parameter optimization. It is found that the change in SLM temperature proﬁle with Al2O3 addition is mainly
+due to the change in optical properties rather than thermal. Hence, both simulation and experimentation re-
+vealed that higher laser energy input is needed for optimized melting. In addition, cellular dendrites were
+found to coarsen with increasing Al2O3 addition due to the decreased cooling rate. With hard particle strength-
+ening effects, all samples showed improved hardness with 3-wt% up to 298 HV and 1-wt% samples showing
+much improved yielding and tensile stresses of 579 and 662 MPa from 316L. Corresponding microlattice built
+this way demonstrated a 30 and 23% increase in speciﬁc strength and energy absorption from that of 316L too.

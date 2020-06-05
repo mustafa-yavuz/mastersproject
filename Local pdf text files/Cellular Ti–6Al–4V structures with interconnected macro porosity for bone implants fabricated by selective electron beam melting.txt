@@ -1,0 +1,7 @@
+Selective electron beam melting (SEBM) was successfully used to fabricate novel cellular Ti–6Al–4V structures for orthopaedic applications.
+Micro computer tomography (lCT) analysis demonstrated the capability to fabricate three-dimensional structures with an interconnected
+porosity and pore sizes suitable for tissue ingrowth and vascularization. Mechanical properties, such as compressive strength
+and elastic modulus, of the tested structures were similar to those of human bone. Thus, stress-shielding effects after implantation might
+be avoided due to a reduced stiffness mismatch between implant and bone. A chemical surface modification using HCl and NaOH
+induced apatite formation during in vitro bioactivity tests in simulated body fluid under dynamic conditions. The modified bioactive
+surface is expected to enhance the fixation of the implant in the surrounding bone as well as to improve its long-term stability.

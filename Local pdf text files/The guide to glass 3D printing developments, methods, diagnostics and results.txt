@@ -1,0 +1,16 @@
+Purpose – This purpose of this paper is to provide an overview of the steps and processes behind successfully adapting novel materials, namely virgin
+glass and recycled glass, to three-dimensional printing (3DP).
+Design/methodology/approach – The transition from 3DP ceramic systems to glass systems will be examined in detail, including the necessary
+modifications to binder systems and printing parameters. The authors present preliminary engineering data on shrinkage, porosity, and density as
+functions of peak firing temperature, and provide a brief introduction to the complexities faced in realizing an adequate and repeatable firing method
+for 3D printed glass.
+Findings – Shrinkage behavior for the 3D printed recycled glass showed significant anisotropy, especially beyond peak firing temperatures of 7308C.
+The average shrinkage ratios for the slow- and fast-axes to the Z-axis were 1:1.37 and 1:2.74, respectively. These extreme differences can be attributed
+to the layer-by-layer production method and binder burn-off. At 7608C, the apparent porosity reached a minimum of 0.36 percent, indicative of
+asymptotic behavior that approaches a fully dense 3DP glass specimen. At low firing temperatures, the bulk density was similar to water, but increased
+to a maximum of 2.41 g/cm3. This indicates that 3DP recycled glass can behave similarly to common glass with accepted published bulk densities
+ranging from 2.4-2.8 g/cm3.
+Research limitations/implications – Heating schedule analysis and optimization may reduce geometric variations, therefore, the firing method
+should be investigated in greater depth.
+Originality/value – This paper provides a guide to successfully adopting glass to commercially available 3DP hardware. This research has also enabled
+rapid prototyping of recycled glass, a monumental step towards a sustainable future for 3DP.

@@ -14,8 +14,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 def embedding() :
     # initialize the word embeddings
     glove_embedding = WordEmbeddings('glove')
-    flair_embedding_forward = FlairEmbeddings('news-forward')
-    flair_embedding_backward = FlairEmbeddings('news-backward')
+    flair_embedding_forward = FlairEmbeddings('news-forward-fast')
+    flair_embedding_backward = FlairEmbeddings('news-backward-fast')
 
     # initialize the document embeddings, mode = mean
     document_embeddings = DocumentPoolEmbeddings([glove_embedding,

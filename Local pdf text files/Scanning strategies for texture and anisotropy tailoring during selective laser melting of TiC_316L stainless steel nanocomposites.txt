@@ -1,0 +1,22 @@
+
+Selective laser melting (SLM) is a promising additive manufacturing technique that allows fabrication of
+complex functional components via the selective layer-by-layer melting of powder bed particles using a
+high-energy laser beam. This technique can allows the production of a wide range of novel high-
+performance materials including metal matrix nanocomposites with unique microstructures and supe-
+rior properties. In this study, the SLM process was used with various laser-scanning methods to fabricate
+cylindrically shaped components from 316L stainless steel reinforced with 15 vol.% TiC nanoparticles. A
+deep relationship between the SLM process and the microstructure and mechanical properties of the
+resulting components was established to understand the inﬂuence of the selected scanning strategy on
+the densiﬁcation, solidiﬁcation microstructure, texture, and anisotropy. It was found that the building
+strategy has a signiﬁcant inﬂuence on the build densiﬁcation, with the highest densiﬁcation obtained
+using a cross-hatched scanning strategy. The resulting bimodal grain structure was related to the heat
+ﬂowing from the solidifying melt pool (i.e., the developed microstructure depends on the local heat
+transfer conditions); the TiC content in the fabricated nanocomposite was also varied according to the
+applied scanning method. The relatively strong crystallographic textures along the building and scanning
+directions can be transformed into weak ones, and the mechanical properties of the produced compo-
+nents can be made nearly isotropic by rotating the scanning vector inside or between the created layers
+by 90(cid:1) (known as alternate and cross hatched scanning strategies, respectively) using a single pass of the
+laser beam. The obtained results indicate that the utilized laser-scanning strategies allowed tailoring of
+the densiﬁcation level, solidiﬁcation microstructure, crystallographic texture, and anisotropy of me-
+chanical properties the fabricated parts. Hence, SLM can be successfully used for manufacturing 316L
+stainless steel nanocomposite parts with a high degree of densiﬁcation and controllable texture.

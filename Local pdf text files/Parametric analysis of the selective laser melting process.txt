@@ -1,0 +1,6 @@
+Selective laser sintering/melting (SLS/SLM) technology is used for manufacturing net-shaped objects from commercial Inox 904L powder with
+!20 mm particle size. Experiments were carried out on PHENIX-PM100 machine equipped with a 50 W cw fiber laser. Powder is layered by a
+roller over the surface of a 100 mm-diameter build cylinder. Optimal parameters of layer thickness and power input per unit speed for SLM were
+determined. It was shown that the greater the value of P/V ratio is, the larger is the remelted line (called as ‘‘vector’’). Influence of the shifting of
+consecutive single vectors on the process of forming the first layer was studied. Different strategies for forming objects with less than 1 mm-sized
+inner structures were tested, as, for example, forming a 20 mm " 20 mm " 5 mm box with 140 mm-thick inner compartment walls.

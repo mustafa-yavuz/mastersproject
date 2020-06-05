@@ -1,0 +1,17 @@
+Fused deposition modeling (FDM) is one of the
+most popular additive manufacturing technologies for
+various engineering applications. FDM process has been
+introduced commercially in early 1990s by Stratasys Inc.,
+USA. The quality of FDM processed parts mainly depends
+on careful selection of process variables. Thus, identification
+of the FDM process parameters that significantly affect
+the quality of FDM processed parts is important. In recent
+years, researchers have explored a number of ways to improve
+the mechanical properties and part quality using
+various experimental design techniques and concepts. This
+article aims to review the research carried out so far in
+determining and optimizing the process parameters of the
+FDM process. Several statistical designs of experiments
+and optimization techniques used for the determination of
+optimum process parameters have been examined. The
+trends for future FDM research in this area are described.

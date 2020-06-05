@@ -1,0 +1,11 @@
+
+The selective laser melting (SLM) of an equiatomic CoCrFeMnNi high-entropy alloy (HEA) powder was
+studied, with emphasis on its non-equilibrium microstructural evolution and mechanical properties. The
+printed sample density increases gradually with increasing laser energy density and then decreases at an
+over-high laser energy density. The microstructure of SLM printed HEA exhibits a large number dislo-
+cation pile-ups and lattice distortion. Of particular intrigue are the existence of nanotwins and tetragonal
+s phase in SLM printed HEA; such nanotwins and s phase have never been observed in either cast or
+deformed HEA with true strain below 3.7%. The grain reﬁnement by rapid solidiﬁcation and s phase
+synergistically improve the mechanical properties, as compared with conventionally solidiﬁed HEA. Hot
+isostatic pressing (HIP) was performed to improve the densiﬁcation, yielding the increase of tensile
+strength from 601 MPa of SLM printed sample to 649 MPa after HIP.

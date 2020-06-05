@@ -1,0 +1,22 @@
+The differences of microstructure and mechanical properties of die steel
+(1.2709) prepared by selection of laser melting (SLM) process and traditional
+casting-forging process were studied. Sample A was prepared by SLM process.
+Sample B was prepared by mixing process (half volume using conventional casting—
+half volume of forging process application SLM). Sample C was prepared by traditional
+casting–forging process. Three sets of samples were subjected to the same
+process of solution treatment and aging treatment. The microstructures and
+mechanical properties of the three groups were studied. The results showed that the
+microstructure of sample A was a homogeneous and dense plate-like martensite
+structure, and they were different in phase distribution. The microstructure observation
+of sample B indicated that the part of the conventional casting-forging process
+consisted of martensite and carbide particles, but the SLM process consisted of a
+uniformly distributed elongated martensite structure. In the region of different
+forming process, there was a transition region with a width of 40 lm. The transition
+zone was relatively loose and the defects were relatively more. The microstructure of
+conventional casting–forging process 1.2709 die steel samples was mainly composed
+of lath martensite and carbide particles. In addition, the relative densities of the three
+sets of samples were close to 100%. The impact toughness values aKV, aKU and the
+impact absorbing energy KV2, KU2 of sample B, sample A and sample C showed an
+increasing trend, and the mechanical property difference was less than 15%. It is
+proved that the mechanical properties of 1.2709 die steel workpiece prepared by SLM
+process can meet the needs of engineering application.

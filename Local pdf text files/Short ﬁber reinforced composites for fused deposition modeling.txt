@@ -1,0 +1,8 @@
+Addressed in this paper are critical material property issues related to the short fiber reinforced composite used in rapid
+prototyping and manufacturing (RP&M). Acrylonitrile–butadiene–styrene (ABS) copolymer has been a popular choice of
+material used in fused deposition modeling (FDM), a commonly used RP&M process. However, conventional ABS polymers in
+the filamentary form for FDM are known to be of low strength and hardness. In order to overcome this deficiency, ABS was
+modified by incorporating several different property modifiers including the short glass fiber, plasticizer, and compatibilizer. Glass
+fibers were found to significantly improve the strength of an ABS filament at the expense of reduced flexibility and handleability.
+The latter two properties of glass fiber reinforced ABS filaments were improved by adding a small amount of plasticizer and
+compatibilizer. The resulting composite filament, prepared by extrusion, was found to work well with a FDM machine.
