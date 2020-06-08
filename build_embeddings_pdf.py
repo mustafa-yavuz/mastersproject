@@ -1,7 +1,6 @@
 """
 This script is for when using local pdf papers.
-Reads pdf files of all papers and creates flair embeddings for all papers.
-Dumps results to file corpus.pkl
+Reads pdf files of all papers and dumps texts to file corpus.pkl
 """
 import numpy as np
 import pandas as pd
@@ -16,7 +15,7 @@ from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 
-def pdfparser(pdffile):
+def pdfparser(pdffile):  
     with open(pdffile, mode='rb') as f:
         rsrcmgr = PDFResourceManager()
         retstr = StringIO()
@@ -32,7 +31,9 @@ def pdfparser(pdffile):
             interpreter.process_page(page)
             data = retstr.getvalue()
 
-        # Cleaning the data
+        # Cleaning the data 
+        # text_cleaning in utils may be used (spacy added)
+        
         data = data.lower()
         data = re.sub('\[*?\]', ' ', data)
         data = re.sub(f'[{re.escape(string.punctuation)}s]', ' ', data)
@@ -41,18 +42,12 @@ def pdfparser(pdffile):
 
         return data
 
-def create_corpus(pdf_folder):
-    corpus = []
-    document_embeddings = embedding()
+def create_pdf_corpus(pdf_folder):
 
     for file1 in os.listdir(pdf_folder):
         if file1.endswith(".pdf"):
             pdf=pdfparser(pdf_folder+file1)
-            sentence = Sentence(pdf)
-            document_embeddings.embed(sentence)
-            corpus.append(sentence.get_embedding().detach().numpy())
 
-    #Save corpus to a pickle file
-    with open('corpus.pkl', 'wb') as f:
-        pickle.dump(corpus, f)
-
+            #Save corpus to a pickle file
+            with open(f"{file1}.txt", "w") as file:
+                file.write(pdf)
