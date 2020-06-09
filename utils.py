@@ -31,7 +31,7 @@ def text_cleaning(data,spacy_model):
     data = data.lower()
     data = re.sub('\$(.*?)\$',' ',data)
     data = re.sub('\[*?\]', ' ', data)
-    data = re.sub(f'[{re.escape(string.punctuation)}]', '', data)
+    data = re.sub(f'[{re.escape(string.punctuation)}]', ' ', data)
     data = re.sub('\w*\d\w*', ' ', data)
     data = data.replace("\n"," ")
     data = spacy_model(data)

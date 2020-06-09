@@ -1,5 +1,0 @@
-The design of custom or tailored implant components has been the subject of research and development for decades. However, the economic
-feasibility of fabricating such components has proven to be a challenge. New direct metal fabrication technologies such as Electron Beam Melting
-(EBM) have opened up new possibilities. This paper discusses the design and fabrication of titanium implant components having tailored
-mechanical properties that mimic the stiffness of bone to reduce stress shielding and bone remodeling. Finite Element Analysis was used to design
-the tailored structures, and results were verified using mechanical testing.

@@ -1,8 +1,0 @@
-Additive manufacturing (AM) has become a versatile and diversified technology that has made a huge difference in how things are
-being manufactured. Substantial growth has been observed in the development of ceramic materials for AM processes. However,
-ceramic parts manufactured by AM methods often exhibit deficiencies in mechanical properties and performance. Recent research
-developments have included improvement of performance and mechanical properties by introducing a material preparation process
-and additional post-processing techniques to improve the fabrication process. This paper contemplates and reviews the advancements
-made in AM techniques to fabricate high-performance ceramic (HPC) materials, also known as advanced ceramics. AM
-processes are classified as per ASTM standards and the technologies implemented are sub-listed. The principles, mechanical
-properties, advantages, disadvantages, applications, and limitations of each technology are described in detail.

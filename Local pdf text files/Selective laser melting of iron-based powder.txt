@@ -1,8 +1,0 @@
-Selective laser melting (SLM) is driven by the need to process near full density objects with mechanical properties comparable to those
-of bulk materials. During the process the powder particles are completely molten by the laser beam. The resulting high density allows
-avoiding lengthy post-processing as required with selective laser sintering (SLS) of metal powders. Unlike SLS, SLM is more difficult to
-control. Because of the large energy input of the laser beam and the complete melting of particles problems like balling, residual stresses
-and deformation occur. This paper will describe SLM applied to a mixture of different types of particles (Fe, Ni, Cu and Fe3P) specially
-developed for SLM. The different appearing phenomenons are discussed and the process optimization is described. The latter includes
-an appropriate process parameter adjustment and the application of special scanning strategies. Resulting parts are characterized by their
-microstructure, density and mechanical properties.
