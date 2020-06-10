@@ -13,8 +13,8 @@ Final goal of this project is to allow researchers to cluster similar papers, fi
 
 ### Code
 * Link for document embeddings : [flairNLP](https://github.com/flairNLP/flair) and [fasttext](https://fasttext.cc/docs/en/english-vectors.html)
-* text_extraction.py : Queries Arxiv api to extract abstract and titles of papers. Preprocesses the text and creates flair embeddings.
-* build_embeddings_pdf.py : Parses pdfs in local directory.Preprocesses the whole text including title,abstract,body and summary. Creates flair embeddings.
+* text_extraction.py : Queries Arxiv api to extract abstract and titles of papers. Preprocesses the text and store them in pickle files.
+* build_embeddings_pdf.py : Parses pdfs in local directory.Preprocesses the whole text including title,abstract,body and summary.Creates corresponding text files.
 * clustering_comparison.ipynb : Compares performances of several clustering algorithms. 
 * pca_visualization.ipynb : Visualizes clustered labels on 2-D space.
 * data_labeling.ipynb : Finds labels of the papers for given topics by utilizing cosine similarity.
