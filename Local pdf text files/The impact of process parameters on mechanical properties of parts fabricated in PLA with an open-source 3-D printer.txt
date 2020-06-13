@@ -1,0 +1,15 @@
+Purpose – This study aims to quantify the ultimate tensile strength and the nominal strain at break (f) of printed parts made from polylactic acid (PLA)
+with a Replicating Rapid prototyper (Rep-Rap) 3D printer, by varying three important process parameters: layer thickness, infill orientation and the number
+of shell perimeters. Little information is currently available about mechanical properties of parts printed using open-source, low-cost 3D printers.
+Design/methodology/approach – A computer-aided design model of a tensile test specimen was created, conforming to the ASTM:D638.
+Experiments were designed, based on a central composite design. A set of 60 specimens, obtained from combinations of selected parameters, was
+printed on a Rep-Rap Prusa I3 in PLA. Testing was performed using a JJ Instruments – T5002-type tensile testing machine and the load was measured
+using a load cell of 1,100 N.
+Findings – This study investigated the main impact of each process parameter on mechanical properties and the effects of interactions. The use
+of a response surface methodology allowed the proposition of an empirical model which connects process parameters and mechanical properties.
+Even though results showed a high variability, additional ideas on how to understand the impact of process parameters are suggested in this paper.
+Originality/value – On the basis of experimental results, it is possible to obtain practical suggestions to set common process parameters in relation
+to mechanical properties. Experiments discussed in the present paper provide a variety of data and insight regarding the relationship among the
+main process parameters and the stiffness and strength of fused deposition modeling-printed parts made from PLA. In particular, this paper
+underlines the shortage in existing literature concerning the impact of process parameters on the elastic modulus and the strain to failure for the
+PLA. The experimental data produced show a good degree of compliance with analytical formulations and other data found in literature.

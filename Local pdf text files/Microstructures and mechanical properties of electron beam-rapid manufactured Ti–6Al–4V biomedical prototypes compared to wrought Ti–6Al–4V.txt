@@ -1,0 +1,14 @@
+This study represents an exploratory characterization and comparison of electron-beam
+melted (EBM) or rapid manufacturing (RM) of Ti–6Al–4V components (from nominal 30 μm
+diameter powder) with wrought products. Acicular α and associated β microstructures
+observed by optical metallography and electron microscopy (SEM and TEM) are compared
+along with corresponding tensile test and hardness data; including the initial powder
+particles where the Vickers microindentation hardness averaged 5.0 GPa in comparison
+with the fully dense, EB manufactured product with an average microindentation hardness
+ranging from 3.6 to 3.9 GPa. This compared with wrought products where the Vickers
+microindentation hardness averaged 4.0 GPa. Values of UTS for the EBM samples averaged
+1.18 GPa for elongations ranging from 16 to 25%. Biomaterials/biomedical applications of
+EBM prototypes in direct prosthesis or implant manufacturing from CT or MRI data are
+discussed in the context of this work, especially prospects for tailoring physical properties
+through EB control to achieve customized and optimized implant and prosthetic products
+direct from CT-scans.

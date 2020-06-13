@@ -1,0 +1,15 @@
+Purpose – The following research seeks to focus on optimizing the fused deposition modeling (FDM) process of RP systems.
+Design/methodology/approach – Early stages of this study are based on the Taguchi method in establishing rapid prototyping building factors and
+their various levels. The ultimate tensile strength, dimension accuracy and surface roughness (SR), are analyzed. Through analysis of variance (ANOVA)
+and contribution approximation, significant building factors of each quality characteristic and optimal factors level combinations of each best quality
+characteristic are obtained. The main steps are setting the weight for each quality characteristic of the previous Taguchi method, obtaining the
+estimated multiple building quality characteristics through integrating the Gray theory, and obtaining a set of optimal building factors. Finally, the result
+is verified by the Gray theory and the technique for order preference by similarity to ideal solution (TOPSIS) evaluation method.
+Findings – It is proven that optimal multiple quality characteristic combinations of building factors can be obtained by integrating the Gray theory and
+the Taguchi method. The result is further verified by the TOPSIS evaluation method, showing that the model can acquire multiple building quality
+characteristics of rapid prototyping.
+Research limitations/implications – The method is only applied to FDM in this paper but a similar approach could be applied to other RP systems.
+Practical implications – RP system use is limited by low product strength, bad SR, and the high dimension errors. This research demonstrates how
+optimizing the FDM process can improve this situation.
+Originality/value – The originality of this paper lies in optimizing the rapid prototyping process by integrating the Taguchi method with the Gray
+relational analysis.

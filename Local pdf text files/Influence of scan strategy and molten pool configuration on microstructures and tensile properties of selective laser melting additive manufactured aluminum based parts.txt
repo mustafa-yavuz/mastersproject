@@ -1,0 +1,15 @@
+Selective laser melting additive manufacturing of the AlSi12 material parts through the re-melting of the
+previously solidiﬁed layer using the continuous two layers 90(cid:1) rotate scan strategy was conducted.
+The inﬂuence of the re-melting behavior and scan strategy on the formation of the ‘‘track-track” and
+‘‘layer-layer” molten pool boundaries (MPBs), dimensional accuracy, microstructure feature, tensile
+properties, microscopic sliding behavior and the fracture mechanism as loaded a tensile force has been
+studied.
+It showed that the defects, such as the part distortion, delamination and cracks, were
+signiﬁcantly eliminated with the deformation rate less than 1%. The microstructure of a homogeneous
+distribution of the Si phase, no apparent grain orientation on both sides of the MPBs, was produced in
+the as-fabricated part, promoting the efﬁcient transition of the load stress. Cracks preferentially initiate
+at the ‘‘track-track” MPBs when the tensile stress increases to a certain value, resulting in the formation of
+the cleavage steps along the tensile loading direction. The cracks propagate along the ‘‘layer-layer” MPBs,
+generating the ﬁne dimples. The mechanical behavior of the SLM-processed AlSi12 parts can be
+signiﬁcantly enhanced with the ultimate tensile strength, yield strength and elongation of 476.3 MPa,
+315.5 MPa and 6.7%, respectively.

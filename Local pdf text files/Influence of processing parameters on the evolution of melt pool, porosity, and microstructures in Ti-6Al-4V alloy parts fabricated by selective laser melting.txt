@@ -1,0 +1,25 @@
+Selective laser melting involves melting and
+solidification of metal powder particles in a track-by-track
+and layer-by-layer method to fabricate 3D parts. The present
+investigation focuses on understanding the effect of
+laser power and scan speed on the evolution of melt pool,
+porosity and multiple thermal cycling effects on the
+microstructure in parts fabricated using selective laser
+melting. In this study, Ti-6Al-4V pre-alloyed powder was
+used to produce single-track deposits and bulk parts. Using
+different combinations of laser power and scan speeds,
+single-track deposits and bulk parts were produced. The
+cross-sections of the single-track deposits and bulk samples
+were prepared for metallographic observations and the melt
+pool shape and size and porosity were evaluated. When a
+low energy density was applied the un-melted powder
+particles produced irregularly shaped porosity, and a high
+energy density resulted in rounded porosity, which was due
+to keyhole effects. The samples produced with a proper
+combination of power and speeds were fully dense. Further,
+microstructural development under the influence of
+process condition was highlighted. Overall, the study
+demonstrates a good correlation between the single-track
+melt pool geometries, porosity in bulk parts and also
+demonstrates the microstructural inhomogeneity during
+deposition.

@@ -1,0 +1,16 @@
+Purpose – A recent study confirmed that the particle size distribution of a metallic powder material has a major influence on the density of a part
+produced by selective laser melting (SLM). Although it is possible to get high density values with different powder types, the processing parameters
+have to be adjusted accordingly, affecting the process productivity. However, the particle size distribution does not only affect the density but also the
+surface quality and the mechanical properties of the parts. The purpose of this paper is to investigate the effect of three different powder granulations
+on the resulting part density, surface quality and mechanical properties of the materials produced.
+Design/methodology/approach – The scan surface quality and mechanical properties of three different particle size distributions and two layer
+thicknesses of 30 and 45mm were compared. The scan velocities for the different powder types have been adjusted in order to guarantee a part
+density $ 99.5 per cent.
+Findings – By using an optimised powder material, a low surface roughness can be obtained. A subsequent blasting process can further improve the
+surface roughness for all powder materials used in this study, although this does not change the ranking of the powders with respect to the resulting
+surface quality. Furthermore, optimised powder granulations lead generally to improved mechanical properties.
+Practical implications – The results of this study indicate that the particle size distribution influences the quality of AM metallic parts, produced by
+SLM. Therefore, it is recommended that any standardisation initiative like ASTM F42 should develop guidelines for powder materials for AM processes.
+Furthermore, during production, the granulation changes due to spatters. Appropriate quality systems have to be developed.
+Originality/value – The paper clearly shows that the particle size distribution plays an important role regarding density, surface quality and resulting
+mechanical properties.

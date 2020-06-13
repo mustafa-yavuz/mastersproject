@@ -1,0 +1,12 @@
+Purpose – The aim of the paper is the study of the change in the mechanical properties (and in particular in ductility), with the microstructure, of a
+biomedical Ti-6Al-4V alloy produced by different variants of selective laser melting (SLM).
+Design/methodology/approach – Ti-6Al-4V alloy produced by different variants of SLM has been mechanically characterized through tensile testing.
+Its microstructure has been investigated by optical observation after etching and by X-ray diffraction analysis.
+Findings – SLM applied to Ti-6Al-4V alloy produces a material with a martensitic microstructure. Some microcracks, due the effect of incomplete
+homologous wetting and residual stresses produced by the large solidification undercooling of the melt pool, are observable in the matrix. Owing to the
+microstructure, the tensile strength of the additive manufactured parts is higher than the strength of hot worked parts, whereas the ductility is lower.
+A pre-heating of the powder bed is effective in assisting remelting and reducing residual stresses, but ductility does not increase significantly, since the
+microstructure remains martensitic. A post-building heat treatment causes the transformation of the metastable martensite in a biphasic a-b matrix,
+with a morphology that depends on the heat treatment. This results in an increase in ductility and a reduction in strength values.
+Originality/value – The study evidenced how it is possible to obtain a fully dense material and make the martensite transform in Ti-6Al-4V alloy
+through the variation of the SLM process. The stabilization of the microstructure also results in an improvement of the ductility.

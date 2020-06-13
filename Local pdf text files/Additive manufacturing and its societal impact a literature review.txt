@@ -1,0 +1,22 @@
+Thirty years into its development, additive manufacturing
+has become a mainstream manufacturing process.
+Additive manufacturing build up parts by adding materials
+one layer at a time based on a computerized 3D solid model.
+It does not require the use of fixtures, cutting tools, coolants,
+and other auxiliary resources. It allows design optimization
+and the producing of customized parts on-demand. Its
+advantages over conventional manufacturing have captivated
+the imagination of the public, reflected in recent mainstream
+publications that call additive manufacturing “the
+third industrial revolution.” This paper reviews the societal
+impact of additive manufacturing from a technical perspective.
+Abundance of evidences were found to support the
+promises of additive manufacturing in the following areas:
+(1) customized healthcare products to improve population
+health and quality of life, (2) reduced environmental impact
+for manufacturing sustainability, and (3) simplified supply
+chain to increase efficiency and responsiveness in demand
+fulfillment. In the mean time, the review also identified the
+need for further research in the areas of life-cycle energy
+consumption evaluation and potential occupation hazard
+assessment for additive manufacturing.

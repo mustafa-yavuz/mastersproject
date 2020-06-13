@@ -7,6 +7,7 @@ import urllib.request
 import feedparser
 import pickle
 import spacy
+import re
 
 from utils import embedding , text_cleaning
 
@@ -60,37 +61,41 @@ for entry in feed.entries:
 
     #print ('Abstract: %s' %  entry.summary)
     abstract_list.append(entry.summary)
+    
+#######################################################
+# Data cleaning #######################################
+#######################################################
 
-# Data cleaning
-a_list = list(map(lambda x: text_cleaning(x), abstract_list))
-t_list = list(map(lambda x: text_cleaning(x), title_list))
-a_list = list(map(lambda x:x.text,a_list))
-t_list = list(map(lambda x:x.text,t_list))
+abstracts = list(map(lambda x: text_cleaning(x,spacy_model), abstract_list))
+titles = list(map(lambda x: text_cleaning(x,spacy_model), title_list))
+
+#######################################################
 # Dumping abstract and title text lists to pickle files
+#######################################################
 with open('abstract_list.pkl', 'wb') as f:
-    pickle.dump(a_list, f)
+    pickle.dump(abstract_list, f)
 with open('title_list.pkl', 'wb') as f:
-    pickle.dump(t_list, f)
-
-# Creating flair embedding
-e4 = embedding() 
-
-# Creating flair embeddings for abstract text
-abstract_corpus = []
-for abstract in a_list:
-  sentence = Sentence(abstract)
-  e4.embed(sentence)
-  abstract_corpus.append(sentence.get_embedding().detach().numpy())
-
-# Creating flair embeddings for title text
-title_corpus = []
-for title in t_list:
-  sentence = Sentence(title)
-  e4.embed(sentence)
-  title_corpus.append(sentence.get_embedding().detach().numpy())
-
-# Dumping abstract and title embeddings to pickle files
-with open('abstract_10000.pkl', 'wb') as f:
-    pickle.dump(abstract_corpus, f)
-with open('title_10000.pkl', 'wb') as f:
     pickle.dump(title_list, f)
+
+# # Creating flair embedding
+# e4 = embedding() 
+
+# # Creating flair embeddings for abstract text
+# abstract_corpus = []
+# for abstract in a_list:
+#   sentence = Sentence(abstract)
+#   e4.embed(sentence)
+#   abstract_corpus.append(sentence.get_embedding().detach().numpy())
+
+# # Creating flair embeddings for title text
+# title_corpus = []
+# for title in t_list:
+#   sentence = Sentence(title)
+#   e4.embed(sentence)
+#   title_corpus.append(sentence.get_embedding().detach().numpy())
+
+# # Dumping abstract and title embeddings to pickle files
+# with open('abstract_10000.pkl', 'wb') as f:
+#     pickle.dump(abstract_corpus, f)
+# with open('title_10000.pkl', 'wb') as f:
+#     pickle.dump(title_list, f)
