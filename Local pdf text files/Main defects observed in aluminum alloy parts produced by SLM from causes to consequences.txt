@@ -1,8 +1,0 @@
-In recent years, the SLM process has been studied for the production of aluminum alloy parts, as these 
-alloys demonstrate significant potential for the future, notably due to their low density which allows a 
-considerable reduction in mass. The aim of this bibliographical study is to identify and classify the 
-parameters and phenomena which influence the appearance of defects in aluminum alloy parts 
-produced using the SLM process and hence the final properties of these parts. To do this, a cause tree 
-diagram was created. For each defect or consequence identified (porosities, defects linked with hot 
-cracking phenomena, anisotropy in the material and surface quality), we revealed the potential sources 
-of the appearance of this defect, going back to the initial causes

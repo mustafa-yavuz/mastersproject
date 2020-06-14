@@ -1,8 +1,0 @@
-Different lengths of WR3 (220–330 GHz) and WR10 (75–110 GHz)
-waveguides are fabricated through direct metal laser sintering (DMLS). The losses
-in these waveguides are measured and modelled using the Huray surface roughness
-model. The losses in WR3 are around 0.3 dB/mm and in WR10 0.05 dB/mm. The
-Huray equation model is accounting relatively good for the attenuation in the WR10
-waveguide but deviates more in the WR3 waveguide. The model is compared to finite
-element simulations of the losses assuming an approximate surface structure similar
-to the resulting one from the DMLS process.

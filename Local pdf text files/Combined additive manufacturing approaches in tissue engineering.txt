@@ -1,9 +1,0 @@
-Advances introduced by additive manufacturing (AM) have signiﬁcantly improved the control over the
-microarchitecture of scaffolds for tissue engineering. This has led to the ﬂourishing of research works
-addressing the optimization of AM scaffolds microarchitecture to optimally trade-off between conﬂicting
-requirements (e.g. mechanical stiffness and porosity level). A fascinating trend concerns the integration
-of AM with other scaffold fabrication methods (i.e. ‘‘combined” AM), leading to hybrid architectures with
-complementary structural features. Although this innovative approach is still at its beginning, signiﬁcant
-results have been achieved in terms of improved biological response to the scaffold, especially targeting
-the regeneration of complex tissues. This review paper reports the state of the art in the ﬁeld of combined
-AM, posing the accent on recent trends, challenges, and future perspectives.
